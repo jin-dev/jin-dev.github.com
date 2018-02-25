@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title:  "[Solr 6] Major_advantages"
 date:   2018-02-21
 ---
