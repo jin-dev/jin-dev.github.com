@@ -6,9 +6,9 @@ title: Contact Jin
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
+    <p class="intro"> If you have any question about me or my blog contents, please feel free to email me.</p>
+    <p> I can speak both English and Korean. If the languages are not familiar with you.  </p>
+    <p> Then please use your language for emailing me. I will translate(google translation) your email and reply it to you.</p>
   </div>
   <form action="https://formspree.io/jpar303@gmail.com" method="POST">
     <label for="name">Name</label>
