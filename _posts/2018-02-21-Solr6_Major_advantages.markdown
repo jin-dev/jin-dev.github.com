@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Solr 6] Major_advantages"
+title:  "[Solr 6] Major advantages"
 date:   2018-02-21
 ---
 
