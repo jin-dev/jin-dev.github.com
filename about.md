@@ -19,4 +19,6 @@ title: About Jin
   		<li>Python </li>
   		<li>Scala</li>
   	</ul>
+    <p>If you need further information about me then, please check my Linkedin profile.  Click <href="https://www.linkedin.com/in/jin-woo-park-87583389/">here</a></p>
+
 </div>
