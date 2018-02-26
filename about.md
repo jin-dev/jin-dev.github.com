@@ -6,7 +6,8 @@ title: About Jin
 <div class="post">
 	<h1 class="pageTitle">About Jin</h1>
 	<img src="{{ '/assets/img/blog_wall2.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro"> A full-stack programmer. completed Computer Science degree in New Zealand.
+	<p class="intro"> A full-stack programmer based on Java.
+	completed Computer Science degree in New Zealand.
 	I am willing to discuss anything about programming, willing to go anywhere for my career.
 	</p>
 
