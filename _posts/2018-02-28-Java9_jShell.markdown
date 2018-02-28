@@ -8,18 +8,16 @@ In my personal opinion, one of most beautiful components of Java9 is Java shell.
 
 ## Advantages
 + no more "public static void main(String[] args)" method.
++ provides a Read Eval Print Loop(REPL) shell for Java.
 + provideds immediate feeback for learning Java and its APIs.
 
-
-## How to use
+### How to use
 1. open your command prompt
 2. type "jshell -v"
 
+### Hello Method in JShell
 
-## How to create Hello method in JShell (Java Shell)
-
-### Past java versions
-
+Past java versions
 ````
 public class Main {
   public sttic void main (String[] args) {
@@ -27,7 +25,5 @@ public class Main {
   }
 }
 ````
-### In JShell
-````
-System.out.println("Hello Jin");
-````
+#### In JShell
+<img src="https://cdn-images-1.medium.com/max/800/1*udlQwFkgMyAz83csRhqMGQ.png">
