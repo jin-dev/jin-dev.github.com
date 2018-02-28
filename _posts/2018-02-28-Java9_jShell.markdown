@@ -4,7 +4,7 @@ title:  "[Java 9] Java Shell "
 date:   2018-02-28
 ---
 
-In my personal opinion, one of most beautiful components of Java9 is Java shell.
+In my personal opinion, one of most beautiful components of Java9 is Java shell. Let us go back to our fist class of learning Java. Back then, I didn't know why I had to create void method for printing "Hello". But Java shell provides Java shell for efficiency way of learning java curves. we don't need to create methods in java shell.  
 
 ## Advantages
 + no more "public static void main(String[] args)" method.
@@ -15,9 +15,8 @@ In my personal opinion, one of most beautiful components of Java9 is Java shell.
 1. open your command prompt
 2. type "jshell -v"
 
-### Hello Method in JShell
 
-Past java versions
+#### Past java versions
 ````
 public class Main {
   public sttic void main (String[] args) {
