@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "How to draw Recharts with React"
+date:   2017-07-17 15:30:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+This post is based on my personal experiences.
+
+Rechart is a composable charting library built on React Components.
+
+<img src="https://cdn-images-1.medium.com/max/800/1*mBNrym-x07sxOw4VtvmXRw.png">
+
+Installation & How to use Recharts
+
+1.  npm is the easiest and fastest way for recharts installation.
+    type the following command.
+    npm install recharts
+
+2. create your own charts as follow
+<img src="https://cdn-images-1.medium.com/max/800/1*mvekYE5XhkHkXl7nh3CrTw.png">
+
+3.  call the constructed charts on your html.
+ex) <div id="container"></div>
+
+4. Run the whole code.

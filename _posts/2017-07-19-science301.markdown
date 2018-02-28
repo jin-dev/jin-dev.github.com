@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Node.js Hello World"
+date:   2017-07-19 11:12:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+This post is based on my personal experiences.
+
+before I start posting, I assume that "NPM" is already installed.
+This post shows you, how to start node.js with "Hello World"
+1.  create "myapp" folder (mkdir myapp)
+
+2. type "npm init"
+
+3. install "express" (npm install express --save)
+
+4. create js file(app.js)
+
+5. type following codes
+
+<img src="https://medium.com/@jpar303/hello-world-for-node-js-82bc3dd8ce02">
+
+6. after writing codes, run node and execute your codes (node app.js)
+
+7. you will see the final output on localhost:3000(default)

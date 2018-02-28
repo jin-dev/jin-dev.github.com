@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "How to apply photo on my personal blog"
+date:   2017-07-16 20:45:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+This post is based on my personal experiences.
+To apply photo on this blog, this is how I did.
+
+1. go to meduium.com and register it.
+2. after sign-in, click "new-post"
+3. apply photo you want.
+4. copy the link of applied photo.
+5. paste it
+6. after all, commit and push to git-hub.

@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "How to apply bootstrap with react"
+date:   2017-07-06 20:45:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+This post is based on my personal experiences.
+To use the bootstrap with react, apply the following steps.
+
+1. go to <a href="http://getbootstrap.com/">the boot-strap</a>
+2. download latest bootstrap version(currenlty it is v3.3.7)
+3. unzip the downloaded file.
+4. the following files are required for react
+  bootstrap.min.css
+  bootstrap-theme.min.css
+  bootstrap.min.js
+5. create two (css,js)folders within your react folder.
+6. move css files to css folder and js for js folder.
+
+<img src="https://cdn-images-1.medium.com/max/800/1*kt0fCp_CG7s9dPrkgJCFtQ.png">
+
+7. apply following inputs to html file.
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>

@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "React with bootstarp and without bootstrap"
+date:   2017-07-17 16:15:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+This post is based on my personal experiences.
+
+on my previous post I wrote how to use Bootstrap with React.
+However, I'm sure that was not enough why we have to use Bootstrap with React.
+Therefore to understand the reason of using Bootstrap, Here I post two different photos.
+
+1.  first one is simple icon with Bootstrap.
+<img src="https://cdn-images-1.medium.com/max/800/1*QBDpPJLnVjmHkt9_Hvwaeg.png">
+
+
+2.  Second one is simple icon without Bootstrap.
+
+<img src="https://cdn-images-1.medium.com/max/800/1*LgxOtDCENPFWXbJaIBXJVw.png">
+
+3. Now I'm sure you can find out major difference defending on Boostrap.
+the following photo is a code for without React(for references)
+
+<img src="https://cdn-images-1.medium.com/max/800/1*nGn4QGtG8R9Rd49CDuyVNQ.png">

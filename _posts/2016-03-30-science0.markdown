@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Big Data Solutions"
+date:   2017-06-29 15:00:00 +0530
+categories: science
+author: "Jin Woo Park"
+---
+
+Writing informations for personal uses
+
+1. Apache Oozie : server-based workflow scheduling system to manage Hadoop jobs.
+2. Sqoop : command-line interface application for transferring data between relational databases and Hadoop.

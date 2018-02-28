@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "How to apply comment function on your blog"
+date:   2017-07-06 20:45:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+This post is based on my personal experiences.
+To do that(Comment function), register for "disqus.com" is required.
+
+1. go to <a href="http://www.disqus.com/">the disqus</a>
+2. Register it
+3. after register, click "get started"
+4. click " I want to install Disqus on my site"
+5. write your information and click "Create Site"
+6. choose "Basic" and click "Continue on Basic"
+7. click "I don't see my platform listed, install manually.."
+8. copy the following whole codes. ex) starts with <div id..>
+9. past the whole codes into post.html (bottom of the page)
+10. commit and push your code.
+11. check the completed comment function on your blog.

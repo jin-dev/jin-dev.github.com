@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "React essential Components "
+date:   2017-7-25 13:30:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+# This post is based on my personal experiences.
+
+1. Browserify : allows the browser to use NPM modules
+
+2. Babel : Compiles ES6/JSX into browser-readable Java-script.
+
+3. Babel-React-Preset : Tells Babel how to compile JSX
+
+4. Babelify : Allows you to use Babel with Browserify
+
+5. Watchify : Watches for changes and instantly starts compiling
+
+6. bcryptjs : for account security purpose. convert plain text(Password) to cryption

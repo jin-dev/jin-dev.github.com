@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Common used npm option commands"
+date:   2017-07-19 13:51:30 +0530
+categories: science
+author: "Jin Woo Park"
+---
+# This post is based on my personal experiences.
+
+ * this post is also belongs to my personal summarization.
+
+"NPM" has virous option lists. but here I write some command that commonly used.
+
+
+*npm install -g (name of Module)
+if you are going to use module commands on terminal then go for global installation.
+
+*npm install (name of Mudule)
+instead of using global installation, you can use it as local installation.
+
+* npm ls -g
+list of global installations will be displayed.
+
+npm ls
+list of local installations will be displayed.
