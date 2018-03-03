@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "[Java 9] Java Shell (2) "
+date:   2018-03-02
+---
+
+As I mentioned in previous post, Java shell provides efficient learning curves.
+Additional examples are as follow.
+
+#### Mathmatics
+
+````
+jshell> 1 + 2
+$1 ==> 3
+|  created scratch variable $1 : int
+
+jshell> 300 + 200 * 3
+$2 ==> 900
+|  created scratch variable $2 : int
+
+jshell> int n = 200
+n ==> 200
+|  created variable n : int
+
+jshell> 500 + n
+$4 ==> 700
+|  created scratch variable $4 : int
+
+jshell> Math.random()
+$7 ==> 0.16572370373476242
+|  created scratch variable $7 : double
+````
+
+#### if statement
+
+````
+jshell> if ( 100 < 20 ) System.out.println("True"); else System.out.println("No")
+No
+````
+
+#### for loop
+````
+for (int i =0; i< 3; i++) System.out.println("The value : " +i);
+The value : 0
+The value : 1
+The value : 2
+````
+#### collection (List)
+````
+jshell> List<String> myList = List.of("Jin", "Park", "Programmer")
+myList ==> [Jin, Park, Programmer]
+|  created variable myList : List<String>
+
+jshell> myList.contains("Jin")
+$9 ==> true
+|  created scratch variable $9 : boolean
+
+jshell> myList.contains("Ed")
+$10 ==> false
+|  created scratch variable $10 : boolean
+
+jshell> myList.size()
+$11 ==> 3
+|  created scratch variable $11 : int
+
+jshell> myList.toString()
+$12 ==> "[Jin, Park, Programmer]"
+|  created scratch variable $12 : String
+````
