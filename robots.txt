@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://jin-dev.github.io/
+Sitemap: http://jin-dev.github.io/sitemap.xml
