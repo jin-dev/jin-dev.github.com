@@ -51,9 +51,12 @@ This post describes how to synchronize Apache solr 6 with a korean morpheme anal
             </analyzer>
     </fieldType>
 ````
+
 + 한글 형태소를 사용할 field란에 "text_ko" 명시 추가 (ex. title)
+
 ````
 <field name="title" type="text_ko" indexed="true" stored="true" required="true" />
 ````
+
 + Solr 재시작
 + Solr Menu --> Core --> Analysis 에서 위 그림과 같이 정상작동 유무 확인
