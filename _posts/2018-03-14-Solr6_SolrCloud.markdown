@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "[Solr 6] SolrCloud 기본 실행 방법 (basic Commands)
+title:  "[Solr 6] SolrCloud 기본 실행 방법 (basic Commands)"
 date:   2018-03-14
+
 ---
 
 This post is focused on Korean Users who wants to construct Apache Solr with Korean.
