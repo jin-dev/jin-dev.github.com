@@ -17,12 +17,14 @@ https://lucene.apache.org/solr/guide/6_6/solrcloud.html
 지난 포스트를 바탕으로 새롭게 default port(8983, 7574)로 solrCloud를 가동 시켰습니다.
 
 ### solrCloud 전체 shard Querying
+
 ````
 http://(IP주소):(port주소)/(solr 이름)/(코어 이름)/select?q=*:*
 ````
 + 위 형식으로 보낼 경우 전체 Shard에 query를 보냅니다. 현재는 데이터가 없어 0 으로 나옵니다.
 + 그 후 8983 port 코어의 documents로 이동(http://(IP주소):8983/solr/#/gettingstarted/documents)
 + 아래 Solr command 형식으로 실험용 데이터 추가 (나의 경우 id 123213)
+
 ````
 <add>
   <doc>
@@ -30,13 +32,16 @@ http://(IP주소):(port주소)/(solr 이름)/(코어 이름)/select?q=*:*
     </doc>
 </add>
 ````
+
 + 똑같은 방식으로 7574 port 코어에 데이터 추가 (id 77777)
 
 ### 특정 shard 에 query 보내기
 + 아래 형식으로 query를 보낼 경우 solrCloud에 존재하는 특정 shard에 있는 데이터만 호출 할 수 있습니다.
+
 ````
 http://(IP주소):(port주소)/(solr 이름)/(코어 이름)/select?q=*:*&shards=shard1
 ````
+
 + 위 형식으로 query를 보낼 경우, 아래와 같이 solr(port 7574) 코어에 저장한 id 77777 이 호출 됩니다.
 
 <img src=https://cdn-images-1.medium.com/max/880/1*WBwM4GcZa9MhuXIvFrJoUA.png >
@@ -47,6 +52,7 @@ http://(IP주소):(port주소)/(solr 이름)/(코어 이름)/select?q=*:*&shards
 ````
 http://(IP주소):(port주소)/(solr 이름)/(코어 이름)/select?q=*:*&shards=shard1,shard2
 ````
+
 + 위 형식으로 query를 보낼 경우, 아래와 같이 다수의 solr 코어에 저장된 id 값들이 호출 됩니다.
 
 <img src=https://cdn-images-1.medium.com/max/880/1*_pQ2-QpzeS1qkfKKPpnB2Q.png>
