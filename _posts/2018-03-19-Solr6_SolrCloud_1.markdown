@@ -25,7 +25,7 @@ http://(IP주소):(port주소)/(solr 이름)/(코어 이름)/select?q=*:*
 + 그 후 8983 port 코어의 documents로 이동(http://(IP주소):8983/solr/#/gettingstarted/documents)
 + 아래 Solr command 형식으로 실험용 데이터 추가 (나의 경우 id 123213)
 
-```
+````
 <add>
   <doc>
     <field name="id">123213</field>
