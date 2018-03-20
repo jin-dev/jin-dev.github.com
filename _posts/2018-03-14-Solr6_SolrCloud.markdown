@@ -7,7 +7,7 @@ date:   2018-03-14
 
 This post is focused on Korean Users who wants to construct Apache Solr with Korean.
 
-기본적으로 Apache 공식 튜토리얼을 따라 하면서 내가 느낀 부분을 남겨봅니다.
+기본적으로 Apache 공식 튜토리얼을 따라 하면서 제가 느낀 부분을 남겨봅니다.
 https://lucene.apache.org/solr/guide/6_6/solrcloud.html
 
 ### SolrCloud ??
