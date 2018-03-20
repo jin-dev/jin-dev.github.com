@@ -18,7 +18,7 @@ https://lucene.apache.org/solr/guide/6_6/schema-api.html
 
 ### Basic Format
 
-+ http://<IP 주소>:<port 주소>/<Solr 이름>/<코어 이름>
++ http://(IP 주소):(port 주소)/(Solr 이름)/(코어 이름)
 
 ### API Entry Points
 
