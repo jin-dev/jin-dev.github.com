@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "[REST API]"
+date:   2018-04-22
+
+---
+
+XML, HTTP를 사용하는 웹 기반 인터페이스
+
+### REST의 주요 원칙? 지켜야 하는것?
+
+1. Stateless( Session, Cookie 사용하지 않는것, 매번 인증키를 넘겨야 함)
+2. 보편적인 인터페이스 (HTTP Method로 정의. GET/POST/DELETE/PUT)
+3. 자원은 URL을 통해 유일하게 저장됨
+4. 각 자원은 URL를 통해 서로 연결 됨
+
+RESTful >> REST의 원칙을 잘 지켜 웹통신을 하는가 라는 의미
+
+### RESTful한 원칙을 잘 지켰는지 알아보는 방법
+
+#### API의 Endpoint가 오직 한개 인가
+#### 하나의 URL에 모든 정보 던지는 것은 X
+다른 리소스를 요청할 경우 URL이 같기 때문에 리소스마다 Unique 한 URL을 가지고 있지 않다는 근거
+#### 모든 요청을 POST 방식으로만 요청하면 X
+자원의 생성은 "POST", 수정은 "PUT", 조회는 "GET", 삭제는 "DELETE" 인데 POST만 쓰는 경우는 RESTful 하지 않음
+
+#### 응답에 대한 메타데이터는 HEAD에만 포함
+404, 401, 400 와 같은 부분은 최대한 HTTP 헤더에만 선언 Body 는 "Resource"의 순수 데이터만 전송 해야 된다.
