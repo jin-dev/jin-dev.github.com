@@ -9,6 +9,8 @@ XML, HTTP를 사용하는 웹 기반 인터페이스
 
 ### REST의 주요 원칙? 지켜야 하는것?
 
+//Second Version
+
 1. Stateless( Session, Cookie 사용하지 않는것, 매번 인증키를 넘겨야 함)
 2. 보편적인 인터페이스 (HTTP Method로 정의. GET/POST/DELETE/PUT)
 3. 자원은 URL을 통해 유일하게 저장됨
